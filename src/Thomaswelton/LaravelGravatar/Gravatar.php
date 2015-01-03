@@ -1,7 +1,7 @@
 <?php namespace Thomaswelton\LaravelGravatar;
 
-use \Config;
-use Illuminate\Support\Facades\HTML;
+use Config;
+use Illuminate\Html\HtmlFacade as Html;
 
 class Gravatar extends \thomaswelton\GravatarLib\Gravatar
 {
